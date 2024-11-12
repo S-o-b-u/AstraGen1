@@ -1,0 +1,17 @@
+.greet-cards p{
+    color: #c4c7c5;
+}
+.greet-cards span{
+ background: -webkit-linear-gradient(16deg, #be4bdb 5%, #9775fa);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+}
+.result::-webkit-scrollbar{
+    display: none;
+    
+}
+.result-data p{
+    line-height: 2.5;
+    width: 90%;
+    font-weight: 900;
+}

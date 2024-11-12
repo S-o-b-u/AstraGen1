@@ -1,0 +1,78 @@
+import { useState } from "react";
+import { Turn as Hamburger } from "hamburger-react";
+
+const Sidebar = () => {
+  const [isOpen, setOpen] = useState(false);
+  const [extended, setExtended] = useState(false);
+  const toggleExtended = () => {
+    setExtended((prev) => !prev);
+  };
+  return (
+    <div
+      className={`relative h-[100%] bg-[#1d1f21] transition-all ease-in-out duration-[.7s] inline-block ${
+        extended ? "w-64" : "w-16"
+      }`}
+    >
+      <div className="upper">
+        <div className="ml-2">
+          <Hamburger
+            onToggle={toggleExtended}
+            toggled={isOpen}
+            color="#fff"
+            toggle={setOpen}
+            size={20}
+            direction="right"
+            rounded
+          />
+        </div>
+        <div
+          className={`mt-12 flex bg-[#282a2c] transition-all ease-in hover:bg-[#3e4144] m-2  rounded-full items-center gap-3 max-w-36`}
+        >
+          <img className="ml-2" src="./icons/add-fill.svg" alt="New chat" />
+          <h1
+            className={`font-semibold min-w-26 bg-red-50  text-white transition-all ease-in-out delay-[.2s] duration-[.2s] ${
+              extended ? "opacity-100 py-2 pr-2" : "opacity-0"
+            } `}
+          >
+            New Chat
+          </h1>
+        </div>
+      </div>
+
+      <div
+        className={`recents mt-11 m-5 transition-all ease-in-out delay-[.2s] duration-[.2s]  ${
+          extended ? "opacity-100" : "opacity-0"
+        }`}
+      >
+        <h2 className="text-white mb-5">Recents</h2>
+        <div className="text-white flex gap-3 text-sm">
+          <img src=".\icons\recent.svg" alt="" />
+          <p>What is react bbg?!</p>
+        </div>
+      </div>
+
+      <div className="lower m-5 absolute bottom-5 flex flex-col gap-5">
+        <div className="text-white flex gap-3 ">
+          <img src=".\icons\heart.svg" alt="" />
+          <h2 className={`transition-all ease-in-out delay-[.1s] duration-[.1s]  ${
+          extended ? "opacity-100" : "opacity-0"
+        }`}>Follow</h2>
+        </div>
+        <div className="text-white flex gap-3 ">
+          <img src=".\icons\help.svg" alt="" />
+          <h2 className={`transition-all ease-in-out delay-[.1s] duration-[.1s]  ${
+          extended ? "opacity-100" : "opacity-0"
+        }`}>Help</h2>
+        </div>
+        <div className="text-white flex gap-3 ">
+          <img src=".\icons\contri.svg" alt="" />
+          <h2 className={`transition-all ease-in-out delay-[.1s] duration-[.1s]  ${
+          extended ? "opacity-100" : "opacity-0"
+        }`}>Contribute</h2>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Sidebar;

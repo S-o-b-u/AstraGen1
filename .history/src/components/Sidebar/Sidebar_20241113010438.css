@@ -1,0 +1,6 @@
+.recents::-webkit-scrollbar{
+    display: none;
+}
+.recent-content {
+    transition: all 5s ease-in;
+}

@@ -1,0 +1,8 @@
+.content p{
+    color: ;
+}
+.content span{
+ background: -webkit-linear-gradient(to bottom, #be4bdb 5%, #9775fa 95%);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+}
