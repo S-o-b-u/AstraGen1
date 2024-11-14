@@ -76,51 +76,38 @@ const Sidebar = () => {
 
       <div className="lower m-5 absolute bottom-5 flex flex-col gap-5">
         <a href="https://www.instagram.com/maihoonshobu/">
-          <div className="text-white flex gap-3">
-            <img 
-              className={`transition-all ease-in-out delay-[.2s] duration-[.2s] ${
-                extended ? "opacity-100" : "opacity-0 lg:opacity-100"
-              }`} 
-              src={assets.follow} 
-              alt="" 
-            />
-            {extended && (
-              <h2 className="fade-in">
-                Follow
-              </h2>
-            )}
+          <div className="text-white flex gap-3 ">
+            <img className={`transition-all ease-in-out delay-[.2s] duration-[.2s] ${extended? "opacity-100" : "opacity-0 lg:opacity-100"}`} src={assets.follow} alt="" />
+
+            {extended? <h2
+              className={`animate-fadeIn`}
+            >
+              Follow
+            </h2>
+            :null}
           </div>
         </a>
         <a href="">
-          <div className="text-white flex gap-3">
-            <img 
-              className={`transition-all ease-in-out delay-[.2s] duration-[.2s] ${
-                extended ? "opacity-100" : "opacity-0 lg:opacity-100"
-              }`} 
-              src={assets.help} 
-              alt="" 
-            />
-            {extended && (
-              <h2 className="fade-in">
-                Help
-              </h2>
-            )}
+          <div className="text-white flex gap-3 ">
+            <img className={`transition-all ease-in-out delay-[.2s] duration-[.2s] ${extended? "opacity-100" : "opacity-0 lg:opacity-100"}`} src={assets.help} alt="" />
+            {extended? <h2
+              className={`animate-fadeIn `}
+            >
+              Help
+            </h2>
+            :null}
           </div>
         </a>
         <a href="https://github.com/S-o-b-u/AstraGen1/pulls">
-          <div className="text-white flex gap-3">
-            <img 
-              className={`transition-all ease-in-out delay-[.2s] duration-[.2s] ${
-                extended ? "opacity-100" : "opacity-0 lg:opacity-100"
-              }`} 
-              src={assets.contri} 
-              alt="" 
-            />
-            {extended && (
-              <h2 className="fade-in">
-                Contribute
-              </h2>
-            )}
+          <div className="text-white flex gap-3 ">
+            <img className={`transition-all ease-in-out delay-[.2s] duration-[.2s] ${extended? "opacity-100" : "opacity-0 lg:opacity-100"}`} src={assets.contri} alt="" />
+           {extended?
+            <h2
+              className="animate-fa"
+            >
+              Contribute
+            </h2>
+ :null}
           </div>
         </a>
       </div>

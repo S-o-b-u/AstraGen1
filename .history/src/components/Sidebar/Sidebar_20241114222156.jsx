@@ -117,7 +117,7 @@ const Sidebar = () => {
               alt="" 
             />
             {extended && (
-              <h2 className="fade-in">
+              <h2 className="animate">
                 Contribute
               </h2>
             )}
