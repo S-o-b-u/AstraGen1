@@ -17,8 +17,8 @@ const Sidebar = () => {
   };
   const handleDownload = () => {
     const link = document.createElement('a');
-    link.href = 'public/user-manual!.pdf'; 
-    link.download = 'User Manual.pdf'; 
+    link.href = 'public/user-manual!.pdf'; // Path to the PDF file in public folder
+    link.download = 'User Manual.pdf'; // Default filename for download
     link.click();
   };
   return (

@@ -17,8 +17,8 @@ const Sidebar = () => {
   };
   const handleDownload = () => {
     const link = document.createElement('a');
-    link.href = 'public/user-manual!.pdf'; 
-    link.download = 'User Manual.pdf'; 
+    link.href = '/user-manual.pdf'; // Path to the PDF file in public folder
+    link.download = 'User Manual.pdf'; // Default filename for download
     link.click();
   };
   return (
@@ -98,7 +98,7 @@ const Sidebar = () => {
           </div>
         </a>
         <a href="">
-          <div onClick={handleDownload} className="text-white flex gap-3">
+          <div className="text-white flex gap-3">
             <img 
               className={`transition-all ease-in-out delay-[.2s] duration-[.2s] ${
                 extended ? "opacity-100" : "opacity-0 lg:opacity-100"
