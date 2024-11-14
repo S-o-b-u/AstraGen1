@@ -49,7 +49,7 @@ const Main = () => {
             <p className="text-[7vh]  lg:text-[13vh]">
               <span>Hello Deviies!</span>
             </p>
-            <p className="text-[2.6vh] lg:text-[5vh] ">
+            <p className="text-[2.6vh] lg:text-[5vh] bg-green-300 ">
             Ask anything, I’m here to help!{" "}
             </p>
             </div>

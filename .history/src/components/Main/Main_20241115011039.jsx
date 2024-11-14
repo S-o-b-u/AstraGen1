@@ -45,11 +45,11 @@ const Main = () => {
       {!ShowResult ? (
         <>
           <div className="greet-cards relative h-32 text-center top-16 lg;top-20 ">
-            <div className=" flex flex-col">
+            <div className=" bg-red-200 flex flex-col">
             <p className="text-[7vh]  lg:text-[13vh]">
               <span>Hello Deviies!</span>
             </p>
-            <p className="text-[2.6vh] lg:text-[5vh] ">
+            <p className="text-[2.6vh] lg:text-[5vh] bg-green-300 ">
             Ask anything, I’m here to help!{" "}
             </p>
             </div>

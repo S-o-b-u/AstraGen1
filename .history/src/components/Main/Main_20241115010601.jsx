@@ -45,17 +45,17 @@ const Main = () => {
       {!ShowResult ? (
         <>
           <div className="greet-cards relative h-32 text-center top-16 lg;top-20 ">
-            <div className=" flex flex-col">
-            <p className="text-[7vh]  lg:text-[13vh]">
+            <div className=" bg-red-200 relative flex ">
+            <p className="text-[7vh] lg:text-[13vh]">
               <span>Hello Deviies!</span>
             </p>
-            <p className="text-[2.6vh] lg:text-[5vh] ">
+            <p className="text-[2.6vh] lg:text-[5vh] mt-20 lg:mt-28 ">
             Ask anything, I’m here to help!{" "}
             </p>
             </div>
 
             
-            <div className="cards h-72 w-[100%] lg:absolute lg:left-[50%] lg:-translate-x-[50%] text-white mt-10 lg:mt-4 flex justify-center items-center flex-wrap gap-2 lg:gap-5 ">
+            <div className="cards h-72 w-[100%] lg:absolute lg:left-[50%] lg:-translate-x-[50%] text-white mt-36 lg:mt-40 flex justify-center items-center flex-wrap gap-2 lg:gap-5 ">
 
               <div onClick={()=>loadPrompt("Suggest beautiful places to see on an upcoming road trip.")} className="card relative transition-all text-start ease-in-out duration-300 bg-[#181B18] hover:bg-[#161816] p-5 h-36 w-36 lg:w-40 lg:h-[26vh] rounded-3xl ">
                 <p className="text-[13px] w-24">
