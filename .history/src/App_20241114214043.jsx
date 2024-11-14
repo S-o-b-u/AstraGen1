@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import Main from './components/Main/Main'
 import Sidebar from './components/Sidebar/Sidebar'
 

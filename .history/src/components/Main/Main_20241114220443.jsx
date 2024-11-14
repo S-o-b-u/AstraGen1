@@ -105,14 +105,14 @@ const Main = () => {
             <div className="user flex gap-3 items-center">
               <img
                 className="w-[30px] h-[30px]"
-                src={assets.profile}
+                src={assets.c}
                 alt="user"
               />
               <p>{RecentPrompt}</p>
             </div>
             <div className="result-data  ml-1   flex gap-2">
               <img  className="w-[30px] h-[30px]"
-                src={assets.astra}
+                src=".\icons\chai-tea.png"
                 alt="user" />
                 {Loading? <MyLoader className="w-[80%] h-12 lg:h-[124px] "/>
                 :
@@ -134,7 +134,7 @@ const Main = () => {
 
         {Input?
         <button onClick={() => onSent()}>
-          <img src={assets.send} alt="" />
+          <img src=".\icons\send.svg" alt="" />
         </button>
         :null}
       </div>

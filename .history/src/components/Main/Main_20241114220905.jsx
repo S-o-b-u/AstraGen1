@@ -31,7 +31,7 @@ const Main = () => {
      <div className="relative w-[100%] h-[100vh] overflow-hidden">
      <div className="relative bg-red lg:px-5 lg:py-5">
         <nav className=" flex justify-between mt-8 lg:mt-0 ">
-          <h1 className="absolute text-white left-[17vw] mt-1 lg:mt-0 lg:left-[6vw] text-2xl font-semibold">
+          <h1 className="absolute  text-white left-[17vw] mt-1 lg:mt-0 lg:left-[6vw] text-2xl font-semibold">
             AstraG
           </h1>
           <img

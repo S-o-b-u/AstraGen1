@@ -134,7 +134,7 @@ const Main = () => {
 
         {Input?
         <button onClick={() => onSent()}>
-          <img src={assets.send} alt="" />
+          <img src=".\icons\send.svg" alt="" />
         </button>
         :null}
       </div>

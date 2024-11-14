@@ -37,7 +37,7 @@ const Sidebar = () => {
           onClick={() => newChat()}
           className={`mt-12 flex bg-[#282a2c] transition-all ease-in hover:bg-[#3e4144] m-2 cursor-pointer  rounded-full items-center  max-w-36`}
         >
-          <img className="p-2" src={assets.add} alt="New chat" />
+          <img className="p-2" src={} alt="New chat" />
           <h1
             className={`font-semibold min-w-24   text-white transition-all ease-in-out delay-[.2s] py-3 duration-[.2s] ${
               extended ? "opacity-100" : "opacity-0"
@@ -67,7 +67,7 @@ const Sidebar = () => {
                   : "blur-sm delay-100 transition-all opacity-0"
               }`}
             >
-              <img src={assets.recent} alt="" />
+              <img src=".\icons\recent.svg" alt="" />
               <p>{items.slice(0, 18)}...</p>
             </div>
           );
@@ -77,10 +77,10 @@ const Sidebar = () => {
       <div className="lower m-5 absolute bottom-5 flex flex-col gap-5">
         <a href="https://www.instagram.com/maihoonshobu/">
           <div className="text-white flex gap-3 ">
-            <img className={`transition-all ease-in-out delay-[.2s] duration-[.2s] ${extended? "opacity-100" : "opacity-0 lg:opacity-100"}`} src={assets.follow} alt="" />
+            <img className={`transition-all ease-in-out delay-[.2s] duration-[.2s] ${extended? "opacity-100" : "opacity-0 lg:opacity-100"}`} src=".\icons\heart.svg" alt="" />
 
             {extended? <h2
-              className={`animate-fadeIn`}
+              className={`animate-fadeIn hover:text-[#b6f391]`}
             >
               Follow
             </h2>
@@ -89,9 +89,9 @@ const Sidebar = () => {
         </a>
         <a href="">
           <div className="text-white flex gap-3 ">
-            <img className={`transition-all ease-in-out delay-[.2s] duration-[.2s] ${extended? "opacity-100" : "opacity-0 lg:opacity-100"}`} src={assets.help} alt="" />
+            <img className={`transition-all ease-in-out delay-[.2s] duration-[.2s] ${extended? "opacity-100" : "opacity-0 lg:opacity-100"}`} src=".\icons\help.svg" alt="" />
             {extended? <h2
-              className={`animate-fadeIn `}
+              className={`animate-fadeIn hover:text-[#b6f391] `}
             >
               Help
             </h2>
@@ -100,10 +100,10 @@ const Sidebar = () => {
         </a>
         <a href="https://github.com/S-o-b-u/AstraGen1/pulls">
           <div className="text-white flex gap-3 ">
-            <img className={`transition-all ease-in-out delay-[.2s] duration-[.2s] ${extended? "opacity-100" : "opacity-0 lg:opacity-100"}`} src={assets.contri} alt="" />
+            <img className={`transition-all ease-in-out delay-[.2s] duration-[.2s] ${extended? "opacity-100" : "opacity-0 lg:opacity-100"}`} src=".\icons\contri.svg" alt="" />
            {extended?
             <h2
-              className={`animate-fadeIn`}
+              className={`animate-fadeIn hover:text-[#b6f391]`}
             >
               Contribute
             </h2>

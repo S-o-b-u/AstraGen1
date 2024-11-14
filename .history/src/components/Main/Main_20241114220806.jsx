@@ -102,7 +102,7 @@ const Main = () => {
       ) : (
         <>
           <div className="result px-5  w-100% h-[71vh] overflow-auto absolute lg:px-72 top-20 lg;top-24 py-2  flex flex-col gap-4  text-white">
-            <div className="user flex gap-3 items-center">
+            <div className="user animate-fadeIn flex gap-3 items-center">
               <img
                 className="w-[30px] h-[30px]"
                 src={assets.profile}

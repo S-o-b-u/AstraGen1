@@ -80,7 +80,7 @@ const Sidebar = () => {
             <img className={`transition-all ease-in-out delay-[.2s] duration-[.2s] ${extended? "opacity-100" : "opacity-0 lg:opacity-100"}`} src={assets.follow} alt="" />
 
             {extended? <h2
-              className={`animate-fadeIn`}
+              className={`animate-fadeIn hover:text-[#b6f391]`}
             >
               Follow
             </h2>
@@ -89,9 +89,9 @@ const Sidebar = () => {
         </a>
         <a href="">
           <div className="text-white flex gap-3 ">
-            <img className={`transition-all ease-in-out delay-[.2s] duration-[.2s] ${extended? "opacity-100" : "opacity-0 lg:opacity-100"}`} src={assets.help} alt="" />
+            <img className={`transition-all ease-in-out delay-[.2s] duration-[.2s] ${extended? "opacity-100" : "opacity-0 lg:opacity-100"}`} src={assets.he} alt="" />
             {extended? <h2
-              className={`animate-fadeIn `}
+              className={`animate-fadeIn hover:text-[#b6f391] `}
             >
               Help
             </h2>
@@ -100,10 +100,10 @@ const Sidebar = () => {
         </a>
         <a href="https://github.com/S-o-b-u/AstraGen1/pulls">
           <div className="text-white flex gap-3 ">
-            <img className={`transition-all ease-in-out delay-[.2s] duration-[.2s] ${extended? "opacity-100" : "opacity-0 lg:opacity-100"}`} src={assets.contri} alt="" />
+            <img className={`transition-all ease-in-out delay-[.2s] duration-[.2s] ${extended? "opacity-100" : "opacity-0 lg:opacity-100"}`} src=".\icons\contri.svg" alt="" />
            {extended?
             <h2
-              className={`animate-fadeIn`}
+              className={`animate-fadeIn hover:text-[#b6f391]`}
             >
               Contribute
             </h2>
