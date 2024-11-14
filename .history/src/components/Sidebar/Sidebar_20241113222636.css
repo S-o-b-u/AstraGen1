@@ -1,0 +1,9 @@
+.recents::-webkit-scrollbar{
+    display: none;
+}
+.recent-content {
+    transition: all .3s ease;
+}
+.recent-content:hover {
+   background-color: #1D1F21;
+}
