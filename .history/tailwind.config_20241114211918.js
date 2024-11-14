@@ -23,12 +23,7 @@ export default {
             opacity:'0'
           }
         }
-      },
-      animation:{
-        fadeIn:'fadeIn 1s ease-in',
-        fadeOut:'fadeOut 1s ease-in'
       }
-
     },
   },
   plugins: [],

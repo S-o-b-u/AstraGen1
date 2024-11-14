@@ -49,7 +49,7 @@ const Sidebar = () => {
       </div>
 
       <div
-        className={`animate-fadeIn recents mt-11 m-5  h-[44vh] overflow-auto transition-all ease-linear duration-[.4s]  ${
+        className={`recents mt-11 m-5  h-[44vh] overflow-auto transition-all ease-linear duration-[.4s]  ${
           extended ? "opacity-100" : "opacity-0 w-0"
         }`}
       >

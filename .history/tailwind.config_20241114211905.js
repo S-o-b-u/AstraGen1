@@ -14,21 +14,16 @@ export default {
           '100%':{
             opacity:'1'
           }
-        },
+        }
         fadeOut:{
-          '0%':{
-            opacity:'1'
-          },
           '100%':{
             opacity:'0'
+          },
+          '100%':{
+            opacity:'1'
           }
         }
-      },
-      animation:{
-        fadeIn:'fadeIn 1s ease-in',
-        fadeOut:'fadeOut 1s ease-in'
       }
-
     },
   },
   plugins: [],
