@@ -53,9 +53,8 @@ const Main = () => {
             Ask anything, I’m here to help!{" "}
             </p>
             </div>
-            <div className="cards h-72 w-[100%] lg:absolute lg:left-[50%] lg:-translate-x-[50%] text-white mt-36 lg:mt-40 flex justify-center items-center flex-wrap gap-2 lg:gap-5 ">
-
-              <div onClick={()=>loadPrompt("Suggest beautiful places to see on an upcoming road trip.")} className="card relative transition-all text-start ease-in-out duration-300 bg-[#181B18] hover:bg-[#161816] p-5 h-36 w-36 lg:w-40 lg:h-[26vh] rounded-3xl ">
+            <div className="cards h-72 w-[100%]  bg-red-300 justify-center lg:absolute lg:left-[50%] lg:-translate-x-[50%] text-white mt-36 lg:mt-64 flex justify-center items-center flex-wrap gap-2 lg:gap-5 ">
+              <div onClick={()=>loadPrompt("Suggest beautiful places to see on an upcoming road trip.")} className="card relative transition-all text-start ease-in-out duration-300 bg-[#181B18] hover:bg-[#161816] p-5 h-20 w- lg:w-40 lg:h-[26vh] rounded-3xl ">
                 <p className="text-[13px] w-24">
                   Suggest beautiful places to see on an upcoming road trip.
                 </p>
@@ -65,7 +64,7 @@ const Main = () => {
                   alt=""
                 />
               </div>
-              <div onClick={()=>loadPrompt("Briefly summarize this concept: urban planning.")} className="card h-36 w-36 relative transition-all text-start ease-in-out duration-300 bg-[#181B18] hover:bg-[#161816] p-5 lg:w-40 lg:h-[26vh] rounded-3xl">
+              <div onClick={()=>loadPrompt("Briefly summarize this concept: urban planning.")} className="card relative transition-all text-start ease-in-out duration-300 bg-[#181B18] hover:bg-[#161816] p-5 lg:w-40 lg:h-[26vh] rounded-3xl">
                 <p className="text-[13px] w-24">
                   Briefly summarize this concept: urban planning.
                 </p>
@@ -75,7 +74,7 @@ const Main = () => {
                   alt=""
                 />
               </div>
-              <div onClick={()=>loadPrompt("Brainstorm team bonding activities for our work retreat.")} className="card relative h-36 w-36 transition-all text-start ease-in-out duration-300 bg-[#181B18] hover:bg-[#161816] p-5 lg:w-40 lg:h-[26vh] rounded-3xl">
+              <div onClick={()=>loadPrompt("Brainstorm team bonding activities for our work retreat.")} className="card relative transition-all text-start ease-in-out duration-300 bg-[#181B18] hover:bg-[#161816] p-5 lg:w-40 lg:h-[26vh] rounded-3xl">
                 <p className="text-[13px] w-24">
                   Brainstorm team bonding activities for our work retreat.
                 </p>
@@ -85,7 +84,7 @@ const Main = () => {
                   alt=""
                 />
               </div>
-              <div onClick={()=>loadPrompt("Tell me about React js and React native.")} className="card h-36 w-36 relative transition-all text-start ease-in-out duration-300 bg-[#181B18] hover:bg-[#161816] p-5 lg:w-40 lg:h-[26vh] rounded-3xl">
+              <div onClick={()=>loadPrompt("Tell me about React js and React native.")} className="card relative transition-all text-start ease-in-out duration-300 bg-[#181B18] hover:bg-[#161816] p-5 lg:w-40 lg:h-[26vh] rounded-3xl">
                 <p className="text-[13px] w-24">
                   Tell me about React js and React native.
                 </p>
