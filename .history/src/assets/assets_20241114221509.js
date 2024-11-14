@@ -10,7 +10,7 @@ import recent from "./recent.svg";
 import send from "./send.svg";
 import urban from "./urban.png";
 import help from "./help.svg";
-import logo from "./logo.png";
+import logo from "./help.svg";
 
 export const assets = {
   add,
